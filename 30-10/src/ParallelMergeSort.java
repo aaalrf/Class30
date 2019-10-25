@@ -8,7 +8,7 @@ public class ParallelMergeSort {
         int[] list1 = new int[SIZE];
 
         for (int i = 0; i < list1.length; i++)
-            list1[i] = (int)(Math.random() * 10000000);
+            list1[i] = (int)(Math.random() * 1000000);
 
         long time1 = System.currentTimeMillis();
         parallelMergeSort(list1);
